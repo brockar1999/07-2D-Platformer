@@ -1,0 +1,30 @@
+[gd_scene format=2]
+
+[node name="Win" type="Node2D"]
+
+[node name="Panel" type="Panel" parent="."]
+margin_right = 1024.0
+margin_bottom = 640.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="ColorRect" type="ColorRect" parent="Panel"]
+margin_right = 1024.0
+margin_bottom = 640.0
+color = Color( 0.027451, 0.356863, 0.34902, 1 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Label" type="Label" parent="Panel"]
+margin_left = 128.0
+margin_top = 128.0
+margin_right = 896.0
+margin_bottom = 512.0
+text = "You Won!"
+align = 1
+valign = 1
+__meta__ = {
+"_edit_use_anchors_": false
+}
